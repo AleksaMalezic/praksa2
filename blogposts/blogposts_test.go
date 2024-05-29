@@ -2,9 +2,10 @@ package blogposts_test
 
 import (
 	"testing"
+
 	"testing/fstest"
 
-	blogposts "github.com/AleksaMalezic/praksa2/blogposts"
+	blogposts "github.com/AleksaMalezic/blogposts"
 )
 
 func TestNewBlogPosts(t *testing.T) {
