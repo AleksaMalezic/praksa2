@@ -2,7 +2,6 @@ package generics_test
 
 import (
 	"testing"
-	"github.com/AleksaMalezic/praksa/generics"
 )
 
 func TestAssertFunctions(t *testing.T) {
