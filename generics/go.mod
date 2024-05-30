@@ -1,3 +1,3 @@
-module github.com/AleksaMalezic/generics
+module github.com/AleksaMalezic/praksa/generics
 
 go 1.22.3
