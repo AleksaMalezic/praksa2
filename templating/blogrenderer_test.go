@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/quii/learn-go-with-tests/blogrenderer"
+	"github.com/AleksaMalezic/blogrenderer"
 )
 
 func TestRender(t *testing.T) {
