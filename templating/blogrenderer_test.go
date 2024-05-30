@@ -1,15 +1,15 @@
-package blogrenderer_test
+package templating_test
 
 import (
 	"bytes"
 	"testing"
 
-	"github.com/AleksaMalezic/blogrenderer"
+	"github.com/AleksaMalezic/templating"
 )
 
 func TestRender(t *testing.T) {
 	var (
-		aPost = blogrenderer.Post{
+		aPost = templating.Post{
 			Title:       "hello world",
 			Body:        "this is a post",
 			Description: "this is a description",
@@ -19,7 +19,7 @@ func TestRender(t *testing.T) {
 
 	t.Run("it converts a single post into HTML", func(t *testing.T) {
 		buf := bytes.Buffer{}
-		err := blogrenderer.Render(&buf, aPost)
+		err := templating.Render(&buf, aPost)
 
 		if err != nil {
 			t.Fatal(err)

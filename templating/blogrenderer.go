@@ -1,1 +1,1 @@
-package blogrenderer
+package templating
